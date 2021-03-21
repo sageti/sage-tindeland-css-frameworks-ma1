@@ -1,0 +1,35 @@
+* {
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: 300 !important;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 34px;
+	color: $black-lighter;
+}
+
+.nav__link {
+	font-size: 18px;
+}
+
+.nav__link--brand {
+	font-size: 36px;
+}
+
+@media (max-width: 576px) {
+	.nav {
+		ul {
+			margin-bottom: 30px;
+		}
+
+		.nav__link {
+			font-size: 15px;
+		}
+
+		.nav__link--brand {
+			font-size: 36px;
+		}
+	}
+}

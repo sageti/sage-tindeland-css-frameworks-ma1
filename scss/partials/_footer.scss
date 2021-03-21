@@ -1,0 +1,28 @@
+.footer {
+	padding: 10px 5% 10px 5%;
+	flex-shrink: 0;
+	width: 100%;
+	background-color: $color-nav;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.6rem;
+	color: $grey-ligther;
+
+	p {
+		margin: 0;
+	}
+}
+
+@media (max-width: 576px) {
+	.footer {
+		background-color: white;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+
+		p {
+			margin: 10px;
+		}
+	}
+}
